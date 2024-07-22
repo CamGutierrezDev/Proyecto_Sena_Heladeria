@@ -7,13 +7,13 @@
     font-family: 'Open Sans';
 }
 body{
-    background: url("img/fondo.jpg");
+    background-color: #FFFFFF;
     background-size: cover;
     background-attachment: fixed;
     padding: 50px;
 }
 .contenedor{
-    background-color: #ffebc1;
+    background-color: #EC69B0;
     max-width: 1200px;
     margin: auto;
     padding: 40px;
@@ -31,18 +31,16 @@ body{
     color: #000;
     display: flex;
     align-items: center;
+    width: 270px;
+    height: 40px;
 }
-.contenedor header .logo-titulo i{
-    background-color: #fff3d2;
-    font-size: 20px;
-    margin-right: 10px;
-}
+
 .contenedor header .logo-titulo h1{
     font-size: 24px;
 }
 .contenedor header nav a{
     text-decoration: none;
-    color: #000;
+    color: #FFFFFF;
     font-weight: bold;
     padding: 0 10px;
 }
@@ -93,7 +91,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: url(img/fondo-shoes.jpg);
+    background: url(img/fondo\ rosa.png);
     background-size: cover;
     width: 100%;
     height: 300px;
@@ -117,7 +115,7 @@ body{
 .contenedor-seccion .inicio .col .titulo-inicio{
    line-height: 40px;
    font-size: 30px;
-   color: #444;
+   color: #FFFFFF;
    margin-bottom: 15px;
 }
 .contenedor-seccion .inicio .col .buscador{
@@ -171,6 +169,7 @@ body{
     align-items: center;
     margin-top: 20px;
     padding: 40px 50px;
+    color: #FFFFFF;
 }
 
 .header-seccion .col{
