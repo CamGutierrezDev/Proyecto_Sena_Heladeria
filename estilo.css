@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans';
+    font-family: 'Britanic Bold';
 }
 body{
     background-color: #FFFFFF;
@@ -45,10 +45,10 @@ body{
     padding: 0 10px;
 }
 .contenedor header nav a:hover{
-    color: #ff6b01;
+    color: #ebc5da;
 }
 .contenedor header nav .selected{
-    color: #ff6b01;
+    color: #ebc5da;
 }
 .contenedor header .carrito{
     font-weight: bold;
@@ -473,7 +473,7 @@ body{
     top: 0;
     width: 100%;
     text-align: center;
-    background: rgba(0,0,0,.6);
+    background: #ec69b183;
     color: #fff;
     height: 100%;
     display: flex;
@@ -502,13 +502,17 @@ body{
     margin: 10px 0;
 }
 .blog .fila .col .contenido h2{
-   font-weight: normal;
+   text-align: center;
+   color: #EC69B0;
+   font-weight: 600;
    margin-bottom: 20px;
    font-size: 18px;
  }
 
  .blog .fila .col .contenido p{
    margin-bottom: 20px;
+   margin-left: 20px;
+   font-size: 95%;
 }
 .blog .fila .col .contenido a{
    text-decoration: none;
@@ -527,7 +531,7 @@ body{
 }
 .contacto .fila{
     padding: 50px 40px;
-    background:#ffebc1;
+    background:#FFFFFF;
     border-radius: 40px;
     display: flex;
     justify-content: space-between;
@@ -565,8 +569,8 @@ body{
 }
 .contacto .fila .col .btn-contacto{
     width: auto;
-    background-color: #000;
-    color: #fdc20c;
+    background-color:#EC69B0;
+    color: #FFFFFF;
     border: none;
     padding: 10px;
     width: fit-content;
