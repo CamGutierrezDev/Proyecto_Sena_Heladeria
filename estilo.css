@@ -580,6 +580,14 @@ body{
     margin-top: 20px;
     cursor: pointer;
 }
+
+.contacto .fila .col .redes{
+    padding: 20px;
+    max-width: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* ****************** */
 /* CARRITO */
 /* ****************** 
@@ -837,5 +845,9 @@ body{
 
 /* sección carrito */
 @media screen and (max-width:800px) {
-  
+    .contacto .fila .col .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
