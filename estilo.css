@@ -783,7 +783,7 @@ body{
 
     /*  sección inicio*/
     .contenedor-seccion .inicio .derecha{
-        display: none;
+        display: flex;
     }
     .contenedor-seccion .inicio .col{
         width: 90%;
@@ -844,8 +844,33 @@ body{
     }
 }
 
-/* sección carrito */
-@media screen and (max-width:800px) {
+
+@media screen and (max-width:800px){
+
+    section .inicio {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    section .inicio .navegacion-interna {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    section .contenedor-seccion .blog{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
     .contacto .fila .col .redes{
         display: flex;
         flex-direction: column;
