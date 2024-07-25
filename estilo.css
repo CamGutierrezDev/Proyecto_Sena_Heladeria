@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Britanic Bold';
+    
 }
 body{
     background-color: #FFFFFF;
@@ -514,6 +515,7 @@ body{
    margin-left: 20px;
    font-size: 95%;
 }
+
 .blog .fila .col .contenido a{
    text-decoration: none;
    color: #ff6b01;
@@ -557,14 +559,14 @@ body{
 }
 .contacto .fila .derecha h2{
     color: #444;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
-    font-family: "DM Serif Display";
+    font-family: "Britanic Bold";
 }
 .contacto .fila .derecha img{
     top: 100px;
-    right: -100px;
-    max-width: 300px;
+    right: 80px;
+    max-width: 250px;
     position: absolute;
 }
 .contacto .fila .col .btn-contacto{
@@ -580,7 +582,7 @@ body{
 }
 /* ****************** */
 /* CARRITO */
-/* ****************** */
+/* ****************** 
 .mi-carrito {
     position: relative;
     padding: 0 50px;
@@ -719,7 +721,7 @@ body{
 }
 #close-responsive{
     display: none;
-}
+} 
 
 /* SECCIÓN RESPONSIVE */
 @media screen and (max-width:950px) {
@@ -835,23 +837,5 @@ body{
 
 /* sección carrito */
 @media screen and (max-width:800px) {
-    .mi-carrito{
-        padding: 15px;
-    }
-    .mi-carrito .productos-carrito{
-        padding: 50px 10px;
-    }
-    .mi-carrito .productos-carrito .fila{
-        justify-content: space-between;
-    }
-    .mi-carrito .productos-carrito .fila  .descripcion{
-        width: 30%;
-        display: block;
-    }
-    .mi-carrito .productos-carrito .fila  .descripcion img{
-       display: block;
-    }
-    .mi-carrito .productos-carrito .fila .precio span{
-        font-size: 16px;
-    }
+  
 }

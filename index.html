@@ -19,6 +19,7 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             cursor: pointer;
+            color: #FFFF;
             transition: background-color 0.3s;
             width: 200px;
             margin: 10px;
@@ -29,7 +30,7 @@
         .nav-item img {
             width: 100px;
             height: 100px;
-            object-fit: cover;
+            
             border-radius: 50%;
             margin-bottom: 10px;
         }
@@ -48,30 +49,20 @@
                 </a>
             </div>
             <nav id="nav">
-                <a href="index.html" class="selected">Inicio</a>
-                <a href="tienda.html">Tienda</a>
+                <a href="index.html" class="selected">Inicio</a>            
                 <a href="contacto.html">Contacto</a>
-                <!-- icono cerrar menu responsive -->
+
+                <!-- icono cerrar menu responsive
                 <span id="close-responsive">
                     <i class="fa-solid fa-xmark"></i>
-                </span>
+                </span> -->
             </nav>
             <!-- icono menu responsive -->
+
             <div id="nav-responsive">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" style="color: #FFFF;"></i>
             </div>
-            
-            <div class="carrito">
-                <span class="total-compra">$ 55,000.00</span>
-                <a href="carrito.html">
-                    <span class="icono-carrito">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                        <div class="total-item-carrito">
-                            2
-                        </div>
-                    </span>
-                </a>
-            </div>
+    
         </header>
 
         <section class="contenedor-seccion">
@@ -82,15 +73,15 @@
                     <h2 class="titulo-inicio">Descubre nuestros deliciosos<br>postres helados</h2>
                     <div class="navegacion-interna">
                         <div class="nav-item" onclick="location.href='#helados'">
-                            <img src="/assets/SVG/boton helado1.svg" alt="Helados">
+                            <img src="/assets/SVG/h1.svg" alt="Helados">
                             <p>Helados</p>
                         </div>
                         <div class="nav-item" onclick="location.href='#malteadas'">
-                            <img src="/assets/SVG/boton malteada1.svg" alt="Malteadas">
+                            <img src="/assets/SVG/m1.svg" alt="Malteadas">
                             <p>Malteadas</p>
                         </div>
                         <div class="nav-item" onclick="location.href='#fresas-con-crema'">
-                            <img src="/assets/SVG/botn fresa1.svg" alt="Fresas con crema">
+                            <img src="/assets/SVG/f1.svg" alt="Fresas con crema">
                             <p>Fresas con crema</p>
                             
                         </div>
