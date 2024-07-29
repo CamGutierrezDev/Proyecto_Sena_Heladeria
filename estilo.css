@@ -755,6 +755,7 @@ body{
 
 
     .contacto .fila .col .redes{
+        max-width: 90px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
